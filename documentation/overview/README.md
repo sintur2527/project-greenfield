@@ -1,4 +1,10 @@
-# Product Overview Component
+# Product Overview Component - Soumith Inturi
+
+### Table of Contents
+
+1. [Carousel](#carousel)
+2. [Styles and Cart](#styles-and-cart)
+3. [Share and Sidebar](#share-and-sidebar)
 
 ## Carousel
 

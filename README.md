@@ -1,21 +1,30 @@
-# Project Greenfield - Vibranium
+# Vibranium Shopping Portal
 
+### Technologies Used
 ![Main Page](documentation/Logos.png)
 
-> Project Greenfield comprises a complete redesign of an outdated client-facing retail web-portal. This redesign provides an item details page which includes an image gallery, styles, questions and answers, and ratings and reviews
+### Description
+> Vibranium Shopping Portal comprises a complete redesign of an outdated client-facing retail web-portal. This redesign provides an item details page which includes an image gallery, styles to choose from, simple cart without session capability, questions and answers, and ratings and reviews
 >
 > - Built entirely using React, React Hooks, and Redux
 > - Client pages served through an Express server
-> - Built using Webpack
+> - Packaged using Webpack and transpiled with Babel.js
 > - Designed with Material UI, following Material Design standards set by Google
 
 ## Table of Contents
 
-1. [Requirements](#Requirements)
-2. [Build](#Building-and-Running)
-3. [Notes](#Notes)
+1. [Components](#components)
+2. [Requirements](#requirements)
+3. [Building and Running](#building-and-running)
+4. [Notes](#notes)
 
-## Requirements
+### Components
+
+1. [Product Overview](documentation/overview/README.md) - Soumith Inturi
+2. [Questions and Answers](documentation/questions/README.md) - Xiao Xie
+3. [Ratings and Reviews](documentation/reviews/README.md) - Andrew Kan
+
+### Requirements
 
 Beyond the npm modules in the package.json, you should have the following installed:
 
@@ -27,7 +36,7 @@ API Key from Filestack
 
 - Config file with API key (FileUploader_API_KEY) required in client/config folder to access the file uploader used to upload images you have for answers to questions and for reviews
 
-## Initial Config
+#### Initial Config
 
 After cloning the folder, please
 
@@ -35,9 +44,9 @@ After cloning the folder, please
 
 2.Create an account in https://www.filestack.com/, and replace the apikey in /client/config/config.js
 
-!!!IMPORTANT!!! NEVER Checkout your API key to github
+!!!IMPORTANT!!! NEVER checkout your API key to github
 
-## Building and Running
+### Building and Running
 
 First install dependencies:
 
@@ -67,7 +76,7 @@ Click this link to view the product
 
 [Vibranium](http://localhost:3000/shop/1)
 
-## Notes
+### Notes
 
 > **Redux + React Hooks**
 >
@@ -77,12 +86,6 @@ Click this link to view the product
 > **URL Routing**
 >
 > - Client side routing done with [React Router DOM](https://reacttraining.com/react-router/web/guides/quick-start)
-
-> **Components Overview**
->
-> 1. [Product Overview](documentation/overview/README.md)
-> 2. [Questions and Answers](documentation/questions/README.md)
-> 3. [Ratings and Reviews](documentation/reviews/README.md)
 
 > **Design**
 >
