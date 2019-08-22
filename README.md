@@ -46,7 +46,8 @@ After cloning the folder, please
 
 2.Create an account in https://www.filestack.com/, and replace the apikey in /client/config/config.js
 
-!!!IMPORTANT!!! NEVER checkout your API key to github
+#### Important!!!
+**Never** checkout your API key to github
 
 ### Building and Running
 
