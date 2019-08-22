@@ -1,5 +1,14 @@
 # Vibranium Shopping Portal
 
+## Table of Contents
+
+1. [Technologies Used](#technologies-used)
+2. [Description](#description)
+3. [Components](#components)
+4. [Requirements](#requirements)
+5. [Building and Running](#building-and-running)
+6. [Notes](#notes)
+
 ### Technologies Used
 ![Main Page](documentation/Logos.png)
 
@@ -10,13 +19,6 @@
 > - Client pages served through an Express server
 > - Packaged using Webpack and transpiled with Babel.js
 > - Designed with Material UI, following Material Design standards set by Google
-
-## Table of Contents
-
-1. [Components](#components)
-2. [Requirements](#requirements)
-3. [Building and Running](#building-and-running)
-4. [Notes](#notes)
 
 ### Components
 
